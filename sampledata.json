@@ -1,0 +1,16 @@
+{
+    "samples": [
+       { "idNumeric": 1, "status": "Available", "LoggedInBy": "Matt"},
+       { "idNumeric": 2, "status": "Available", "LoggedInBy": "LabSupervisor"},
+       { "idNumeric": 3, "status": "Completed", "LoggedInBy": "Matt"},
+       { "idNumeric": 4, "status": "InProgress", "LoggedInBy": "LabAnalyst"},
+       { "idNumeric": 5, "status": "Available", "LoggedInBy": "Matt"},
+       { "idNumeric": 6, "status": "Completed", "LoggedInBy": "Matt"},
+       { "idNumeric": 7, "status": "Available", "LoggedInBy": "Matt"},
+       { "idNumeric": 8, "status": "Authorized", "LoggedInBy": "LabSupervisor"},
+       { "idNumeric": 9, "status": "Completed", "LoggedInBy": "QualityControl"},
+       { "idNumeric": 10, "status": "InProgress", "LoggedInBy": "LabAnalyst"},
+       { "idNumeric": 11, "status": "Available", "LoggedInBy": "Matt"},
+       { "idNumeric": 12, "status": "Completed", "LoggedInBy": "LabAnalyst"}
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "keys": {
+            "primary":["testNumber"],
+            "foreign":[
+                {"LoggedInBy":{
+                    "table":"Personnel",
+                    "field":"Name"
+                }
+            }
+            ]
+
+        }
+    },
+    "data": [
+       {"idNumeric":10, "testNumber": 1, "status": "Available", "LoggedInBy": "Matt"},
+       {"idNumeric":10, "testNumber": 2, "status": "Available", "LoggedInBy": "LabSupervisor"},
+       {"idNumeric":10, "testNumber": 3, "status": "Completed", "LoggedInBy": "Matt"},
+       {"idNumeric":10, "testNumber": 4, "status": "InProgress", "LoggedInBy": "LabAnalyst"},
+       {"idNumeric":10, "testNumber": 5, "status": "Available", "LoggedInBy": "Matt"},
+       {"idNumeric":11, "testNumber": 6, "status": "Completed", "LoggedInBy": "Matt"},
+       {"idNumeric":11, "testNumber": 7, "status": "Available", "LoggedInBy": "Matt"},
+       {"idNumeric":11, "testNumber": 8, "status": "Authorized", "LoggedInBy": "LabSupervisor"},
+       {"idNumeric":11, "testNumber": 9, "status": "Completed", "LoggedInBy": "QualityControl"},
+       {"idNumeric":11, "testNumber": 10, "status": "InProgress", "LoggedInBy": "LabAnalyst"},
+       {"idNumeric":11, "testNumber": 11, "status": "Available", "LoggedInBy": "Matt"},
+       {"idNumeric":11, "testNumber": 12, "status": "Completed", "LoggedInBy": "LabAnalyst"}
+    ]
+}
