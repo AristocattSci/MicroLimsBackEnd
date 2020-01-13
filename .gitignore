@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#log files
+/logs
+
+#sensitive config files
+connector.json
+/data/results.json

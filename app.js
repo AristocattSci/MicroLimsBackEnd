@@ -11,6 +11,11 @@ var sampleRouter = require('./routes/sample');
 var entityViewerRouter = require('./routes/entityviewer');
 var app = express();
 
+
+var initApp = require('./init');
+initApp.initTableData();
+
+
 var corsOptions = {
   origin: 'http://localhost:4200/',
   optionsSuccessStatus: 200
